@@ -16,11 +16,11 @@ export default function TestimonialCard({
         className
       )}
     >
-      <div className="w-fit absolute inset-0 -top-10 -left-10 h-fit">
+      <div className="w-fit h-fit absolute inset-0 -top-10 -left-10 ">
         <Image
           height={70}
           width={70}
-          className="object-cover rounded-full"
+          className=" w-[70px] h-[70px] object-cover rounded-full"
           src={testimonial.image}
           alt={""}
         />

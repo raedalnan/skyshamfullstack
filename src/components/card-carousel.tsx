@@ -10,7 +10,7 @@ const testimonials: Testimonial[] = [
     id: 1,
     name: "Isabella Rossi",
     location: "Florence, Italy",
-    image: "https://randomuser.me/api/portraits/women/12.jpg",
+    image: "/isabella.jpg",
     message:
       "“I never expected such fast service. The team was professional, responsive, and made everything so easy to manage.”",
   },
@@ -18,7 +18,7 @@ const testimonials: Testimonial[] = [
     id: 2,
     name: "James Carter",
     location: "Sydney, Australia",
-    image: "https://randomuser.me/api/portraits/men/45.jpg",
+    image: "/james.jpg",
     message:
       "“Fantastic experience from start to finish. Their attention to detail and consistent updates gave me complete peace of mind.”",
   },
@@ -26,7 +26,7 @@ const testimonials: Testimonial[] = [
     id: 3,
     name: "Mei Tan",
     location: "Kuala Lumpur, Malaysia",
-    image: "https://randomuser.me/api/portraits/women/66.jpg",
+    image: "/mei.jpg",
     message:
       "“The results were beyond what I imagined. Everything was delivered exactly on time, and the process was incredibly smooth.”",
   },
@@ -34,7 +34,7 @@ const testimonials: Testimonial[] = [
     id: 4,
     name: "Liam O'Connor",
     location: "Dublin, Ireland",
-    image: "https://randomuser.me/api/portraits/men/22.jpg",
+    image: "/liam.jpg",
     message:
       "“I've worked with many teams before, but this one stands out. Reliable, friendly, and truly professional in every sense.”",
   },
@@ -42,7 +42,7 @@ const testimonials: Testimonial[] = [
     id: 5,
     name: "Sakura Hayashi",
     location: "Tokyo, Japan",
-    image: "https://randomuser.me/api/portraits/women/35.jpg",
+    image: "/sakura.jpg",
     message:
       "“A brilliant experience overall. Their support was exceptional and I always felt informed, understood, and well taken care of.”",
   },
