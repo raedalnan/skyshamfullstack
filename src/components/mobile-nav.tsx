@@ -1,7 +1,7 @@
 "use client";
 import { NavLink } from "@/lib/types";
 import { XIcon } from "lucide-react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 import Link from "next/link";
 

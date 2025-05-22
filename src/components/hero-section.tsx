@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { FaRegCirclePlay } from "react-icons/fa6";
 import { Button } from "./ui/button";
 import Wrapper from "./wrapper";
 
@@ -13,19 +12,14 @@ export default function HeroSection() {
               Best Destinations around the world
             </h3>
             <h1 className="font-bold font-volkhov text-3xl md:text-4xl lg:text-7xl text-navy leading-[1] mt-5">
-              Travel, enjoy and live a new and full life
+            Explore the World with Sky Sham
             </h1>
             <p className="leading-[1.6] mt-8">
-              Built Wicket longer admire do barton vanity itself do in it.
-              Preferred to sportsmen it engrossed listening. Park gate sell they
-              west hard for the.
+            Discover breathtaking destinations, seamless flight bookings, tailored travel packages, and unforgettable experiences — all with Sky Sham Travel Agency.
             </p>
             <div className="flex items-center gap-4 mt-9">
               <Button className="cursor-pointer">Find out more</Button>
-              <Button variant={"outline"} className="cursor-pointer">
-                <FaRegCirclePlay />
-                Play Demo
-              </Button>
+              
             </div>
           </div>
           <div className="basis-1/2 w-full h-full relative aspect-square">

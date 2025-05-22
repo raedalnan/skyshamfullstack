@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimatePresence } from "motion/react";
+import { AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import Logo from "./logo";
 import MobileMenuToggle from "./mobile-menu-toggle";
@@ -20,7 +20,7 @@ export default function Header() {
   };
 
   return (
-    <header className="py-6">
+    <header className="pt-6">
       <Wrapper>
         <div className="flex justify-between items-center">
           <Logo />

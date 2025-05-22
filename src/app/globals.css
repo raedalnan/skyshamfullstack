@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
@@ -52,7 +54,7 @@
   --color-navy: #181e4b;
   --color-light-white: #fdfcfe;
   --color-yellow: #f1a501;
-  --color-primary: #df6951;
+  --color-primary: #66b2e0;
   --color-dark: #5e6282;
   --color-dark-green: #006380;
 
@@ -130,7 +132,7 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border ring-1 ring-ring ring-opacity-50;
   }
   body {
     @apply bg-background text-foreground;

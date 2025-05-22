@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
           <div className="sm:col-span-2">
             <SocialIcons />
-            <h3 className="text-2xl text-dark my-6 capitalize">
+            {/* <h3 className="text-2xl text-dark my-6 capitalize">
               Discover our app
             </h3>
             <div className="flex gap-4">
@@ -56,7 +56,7 @@ export default function Footer() {
                 <FaApple />
                 Get it now
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
 

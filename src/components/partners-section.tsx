@@ -5,34 +5,34 @@ import Wrapper from "./wrapper";
 const partners: Partner[] = [
   {
     id: 1,
-    name: "Microsoft",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+    name: "Air Arabia",
+    logo: "/Air_Arabia_Logo.svg.png",
   },
   {
     id: 2,
-    name: "Netflix",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    name: "Cham Wings",
+    logo: "/Cham_wings_logo.jpg",
   },
   {
     id: 3,
-    name: "Amazon",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    name: "Emirates",
+    logo: "/Emirates_logo.svg.png",
   },
 
   {
     id: 5,
-    name: "Slack",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png", // Wordmark alternative
+    name: "Qatar Airways",
+    logo: "/1200px-Qatar_Airways_Logo.png", 
   },
   {
     id: 6,
-    name: "Spotify",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    name: "Fly Dubai",
+    logo: "/Fly_Dubai_logo_2010_03.svg.png",
   },
   {
     id: 7,
-    name: "Dropbox",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/7/78/Dropbox_Icon.svg",
+    name: "Turkish Airlines",
+    logo: "/Turkish_Airlines_logo_2019.svg.png",
   },
 ];
 
