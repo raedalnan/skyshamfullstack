@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Poppins, Volkhov } from "next/font/google";
 import "./globals.css";
 import { SelectedFlightProvider } from '@/context/SelectedFlightContext'
+import { AuthProvider } from '@/context/auth-context'
 
 const volkhov = Volkhov({
   variable: "--font-volkhov",
@@ -32,11 +33,13 @@ export default function RootLayout({
       <body
         className={`${volkhov.variable} ${poppins.variable} antialiased font-poppins bg-light-white`}
       >
-        <SelectedFlightProvider>
-          <Header />
-          {children}
-          <Footer />
-        </SelectedFlightProvider>
+        <AuthProvider>
+          <SelectedFlightProvider>
+            <Header />
+            {children}
+            <Footer />
+          </SelectedFlightProvider>
+        </AuthProvider>
       </body>
     </html>
   );
